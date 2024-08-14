@@ -13,7 +13,7 @@ public class UserResponse {
         this.age = age;
     }
 
-    public UserResponse(long id, User user) {
+    public UserResponse(User user) {
         this.id = id;
         this.name = user.getName();
         this.age = user.getAge();
