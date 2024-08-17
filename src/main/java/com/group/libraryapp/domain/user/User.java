@@ -17,7 +17,7 @@ public class User {
     private String name;
     private Integer age;
 
-    @OneToMany(mappedBy = "User")
+    @OneToMany(mappedBy = "user")
     private List<UserLoanHistory> userLoanHistorise = new ArrayList<>();
 
     protected User(){
